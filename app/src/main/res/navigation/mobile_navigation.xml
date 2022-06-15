@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_computador">
+
+    <fragment
+        android:id="@+id/nav_computador"
+        android:name="com.example.computadoras.ui.computador.ComputadorFragment"
+        android:label="@string/menu_computador"
+        tools:layout="@layout/fragment_computador" >
+        <action
+            android:id="@+id/action_nav_computador_to_addComputadorFragment"
+            app:destination="@id/addComputadorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.computadoras.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.computadoras.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addComputadorFragment"
+        android:name="com.example.computadoras.ui.computador.AddComputadorFragment"
+        android:label="fragment_add_computador"
+        tools:layout="@layout/fragment_add_computador" >
+        <action
+            android:id="@+id/action_addComputadorFragment_to_nav_computador"
+            app:destination="@id/nav_computador" />
+    </fragment>
+</navigation>

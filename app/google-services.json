@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "690338953398",
+    "project_id": "tarea2-ae314",
+    "storage_bucket": "tarea2-ae314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690338953398:android:7da201f4b07dd614cece17",
+        "android_client_info": {
+          "package_name": "com.example.computadoras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690338953398-bmh43db17npd9vgasaupv822a2r0gej3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUO-0s7SL8CbadQGvU80zhrTdzoFXyrkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690338953398-bmh43db17npd9vgasaupv822a2r0gej3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690338953398:android:175d3d0fa08adafbcece17",
+        "android_client_info": {
+          "package_name": "com.lugares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690338953398-bmh43db17npd9vgasaupv822a2r0gej3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUO-0s7SL8CbadQGvU80zhrTdzoFXyrkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690338953398-bmh43db17npd9vgasaupv822a2r0gej3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
